@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 9rem;
+  padding: 2vh 9vh;
   margin-top: 10px;
   position: absolute;
   top: 30px;
@@ -14,25 +14,25 @@
 }
 
 .commission-paragraph {
-  font-size: 5rem;
+  font-size: 500%;
   font-weight: bold;
 }
 
 .commission-images-container img{
   height: auto;
   width: 30%;
-  margin-right: 2rem;
+  margin-right: 2vh;
 }
 
 .titles {
-  font-size: 5rem;
+  font-size: 500%;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 2vh;
   border-bottom: 3px solid rgb(29, 0, 70);
 }
 
 .subtitles {
-  font-size: 4rem;
+  font-size: 400%;
   font-weight: bold;
 }
 
@@ -49,5 +49,5 @@
 
 .price,
 .description {
-  font-size: 3rem;
+  font-size: 300%;
 }

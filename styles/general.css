@@ -1,0 +1,61 @@
+
+
+body {
+  background-color: rgb(86, 53, 129);
+  background-image: url(),linear-gradient(to right,rgb(86, 53, 129), rgb(107, 53, 129), rgb(173, 80, 173));
+  font-family: Josefin Sans, Arial;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(18, 0, 43);
+  font-size: 4rem;
+  background: linear-gradient(to right, #ff7c79, #ff9dbe, #a979fc, #6dbdff, #7cf0ff, #85ff8b, #f7ff9c, #ffd086, #ff9f82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  color: rgb(38, 0, 90);
+  background: linear-gradient(to right, #fb7aff, #7bebff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  background: linear-gradient(to right, #7affe9, #ff7bed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgb(29, 0, 70);
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  color: rgb(29, 0, 70);
+  font-size: 2rem;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(29, 0, 70);
+}
+
+@media (max-width: 390px) and (max-width: 800px) {
+  body {
+    margin-left: 10rem;
+  }
+
+
+}

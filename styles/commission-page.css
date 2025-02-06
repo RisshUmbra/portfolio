@@ -1,0 +1,53 @@
+.commission-container {
+  background-color: rgba(43, 14, 63, 0.3);
+  border-radius: 10rem;
+  border: 10px solid rgba(37, 0, 88, 0.473);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 9rem;
+  margin-top: 10px;
+  position: absolute;
+  top: 30px;
+  z-index: -1;
+}
+
+.commission-paragraph {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.commission-images-container img{
+  height: auto;
+  width: 30%;
+  margin-right: 2rem;
+}
+
+.titles {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid rgb(29, 0, 70);
+}
+
+.subtitles {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.commission-images-container p {
+  text-align: center;
+}
+
+.commission-images-container div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.price,
+.description {
+  font-size: 3rem;
+}

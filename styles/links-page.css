@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(43, 14, 63, 0.3);
+  padding: 4rem 2rem;
+  border-radius: 10rem;
+  border: 10px solid rgba(37, 0, 88, 0.473);
+}
+
+.links-container img {
+  height: 3rem;
+  width: 3rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.links-container a {
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.link-list p {
+  font-size: 2.5rem;
+  margin: 1rem;
+  display: inline-block;
+}
+
+.links {
+  font-size: 6rem;
+  margin: 2rem;
+}
+
+.nav-button {
+  margin: 2rem 0;
+}

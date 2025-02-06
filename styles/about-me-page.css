@@ -38,8 +38,11 @@ li:hover {
   text-decoration: underline;
 }
 
+.image-container {
+  margin-left: 2vh;
+}
 .image-container img {
-  height: 15%;
+  height: 40vh;
   object-fit: cover;
   object-position: center;
 }
